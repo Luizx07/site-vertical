@@ -9,8 +9,13 @@ a{
 ul,ol,li{
     list-style: none;
 }
+html, body{
+    scroll-behavior: smooth;
+}
 header{
+    position: fixed;
     background-color: #333;
+    width: 100vw;
 }
 header nav ul{
     display: flex;
@@ -25,4 +30,22 @@ header nav a{
 header nav a:hover{
     border-bottom: 4px solid lightblue;
     color: black;
+}
+.grupo{
+    height: 100vh;   
+}
+#vermelho{
+    background-color: #ff6b6b;
+}
+#verde{
+    background-color: #1dd1a1;
+}
+#azul{
+    background-color: #54a0ff;
+}
+#amarelo{
+    background-color: #feca57;
+}
+#roxo{
+    background-color: purple;
 }
