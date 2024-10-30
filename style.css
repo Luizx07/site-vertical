@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-}
 a{
     text-decoration: auto;
 }
@@ -40,7 +35,7 @@ header nav a:hover{
     height: 100vh;   
 }
 #vermelho{
-    background-color: #030202;
+    background-color: #121212;
 }
 #verde{
     background-color: #000000;
@@ -60,7 +55,7 @@ header nav a:hover{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 40px;
 }
 
@@ -69,15 +64,15 @@ header nav a:hover{
     margin-bottom: 20px;
 }
 
-.text-box {
+.texto {
     background-color: #FFFFFF;
     color: #000000;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     text-align: left;
 }
 
-.text-box h3 {
+.texto h3 {
     color: #1DB954;
 }
